@@ -1,7 +1,7 @@
 // Hamburger menu
 
 function myFunction() {
-    var x = document.getElementById("myLinks");
+    const x = document.getElementById("myLinks");
     if (x.style.display === "block") {
       x.style.display = "none";
     } else {
